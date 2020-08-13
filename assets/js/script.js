@@ -63,9 +63,9 @@ function showMessages(who, data){
 
     div_txt.appendChild(h5);
     div_txt.appendChild(p);
-
     div.appendChild(img);
     div.appendChild(div_txt);
 
     area_content.appendChild(div);
+    window.scrollTo(0,document.body.scrollHeight);
 }

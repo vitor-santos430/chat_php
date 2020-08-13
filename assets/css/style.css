@@ -21,7 +21,7 @@ aside img{
     flex-direction: column;
 }
 #message{
-    height: 150px;
+    height: 110px;
 }
 #name, #message{
     border: none;
@@ -42,5 +42,16 @@ section{
     padding-bottom: 5%;
 }
 section .other{
-    margin-left: 50%;
+    margin-left: 45%;
+    text-align: right;
+    width: 50%;
+    word-break: break-all;
+    padding-right: 10px;
+    
+}
+section .me{
+    text-align: left;
+    width: 50%;
+    word-break: break-all;
+    
 }
